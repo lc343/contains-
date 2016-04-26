@@ -6,3 +6,6 @@ contains.html
 否则，若浏览器是Webkit且至少是safari3(Webkit版本号为522或更高)，则继续执行代码，否则contains()方法不能正常进行。
 第二步，检查是否存在compareDocumentPosition()方法
 否则第三步，有otherNode向上遍历DOM结构，以递归方式取得parentNode,检查是否与refNode相等，在文档树顶端，parentNode值为null时，停止搜索。
+
+client.js
+完整的用户代理字符检测脚本，包括检测呈现引擎，平台，Windows，mac,unix操作系统，移动设备和游戏系统。
